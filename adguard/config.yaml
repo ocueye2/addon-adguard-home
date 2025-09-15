@@ -40,6 +40,7 @@ schema:
   ssl: bool
   certfile: str
   keyfile: str
+  adguard_version: str
   leave_front_door_open: bool?
 backup_exclude:
   - "*/adguard/data/querylog.*"
